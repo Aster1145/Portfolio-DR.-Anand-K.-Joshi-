@@ -45,9 +45,9 @@ export default function Hero() {
               </Reveal>
 
               <Reveal delay={80}>
-                <h1 className="mt-6 font-display text-[3.4rem] leading-[0.9] tracking-[-0.035em] sm:text-[4.6rem] lg:text-[5rem] xl:text-[5.5rem]">
-                  <span className="block text-ivory">Dr. Anand</span>
-                  <span className="text-gold-gradient block italic">K. Joshi</span>
+                <h1 className="mt-6 whitespace-nowrap font-display text-[clamp(2.1rem,5.2vw,4.15rem)] leading-[1.05] tracking-[-0.03em]">
+                  <span className="text-ivory">Dr. Anand </span>
+                  <span className="text-gold-gradient italic">K. Joshi</span>
                 </h1>
               </Reveal>
 
@@ -129,10 +129,10 @@ export default function Hero() {
                 <div className="relative overflow-hidden rounded-[1.4rem] border border-white/15 bg-navy-800 shadow-[0_40px_80px_-40px_rgba(0,0,0,0.8)]">
                   <img
                     src="/images/portrait.jpg"
-                    alt="Portrait of Dr. Anand K. Joshi in a navy blazer, in a modern engineering research space"
-                    className="aspect-[4/5] w-full object-cover object-top"
-                    width={1024}
-                    height={1280}
+                    alt="Dr. Anand K. Joshi at the Mechanical Maker Space"
+                    className="aspect-[4/5] w-full object-cover object-[center_35%]"
+                    width={576}
+                    height={1024}
                     fetchPriority="high"
                   />
                   <div
